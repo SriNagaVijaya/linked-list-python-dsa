@@ -1,72 +1,50 @@
-📚 Linked List-Based Data Structures in Python
-This repository includes clean and modular implementations of classic Linked List Data Structures using Python. Built entirely from scratch with OOP concepts and without using Python’s built-in list, deque, or queue.
+# 📚 Linked List-Based Data Structures in Python
 
-🚀 What's Inside
-Data Structure	Description
-🧱 Singly Linked List	Basic linear list with next pointers
-🔁 Doubly Linked List	List with bidirectional navigation
-🔁 Circular Singly LL	Tail connects back to head
-🔁 Circular Doubly LL	Doubly list that loops back
-📦 Stack (Singly LL)	LIFO structure using singly linked list
-🚦 Queue (Singly LL)	FIFO structure using singly linked list
-🌀 Deque (Doubly LL)	Double-ended queue using doubly linked list
+This repository includes clean, modular, and beginner-friendly implementations of classic **Linked List Data Structures** using **Python**. All data structures are built entirely from scratch using **Object-Oriented Programming (OOP)** principles, with **no use of Python built-in `list`, `deque`, or `queue`** classes.
 
-✅ Features & Operations
-🔹 Singly Linked List
-Insert at start/end
+---
 
-Delete by value
+## 🚀 What's Inside
 
-Search
+| Data Structure        | Description                                       |
+| --------------------- | ------------------------------------------------- |
+| 🧱 Singly Linked List | Basic linear list with `next` pointers            |
+| 🔁 Doubly Linked List | List with bidirectional navigation                |
+| 🔁 Circular Singly LL | Tail connects back to the head                    |
+| 🔁 Circular Doubly LL | Doubly linked list with wrap-around connections   |
+| 📦 Stack (Singly LL)  | LIFO structure implemented via singly linked list |
+| 🚦 Queue (Singly LL)  | FIFO structure implemented via singly linked list |
+| 🌀 Deque (Doubly LL)  | Double-ended queue via doubly linked list         |
 
-Display
+---
 
-🔹 Doubly Linked List
-Insert at start/end
+## ✅ Features & Operations
 
-Delete by value
+| Data Structure        | Operations                                                                          |
+| --------------------- | ----------------------------------------------------------------------------------- |
+| 🔹 Singly Linked List | Insert at start/end, Delete by value, Search, Display                               |
+| 🔹 Doubly Linked List | Insert at start/end, Delete by value, Navigate forward/backward, Display            |
+| 🔹 Circular Lists     | Circular Singly: Tail points to head<br>Circular Doubly: Next & Prev wrap           |
+| 🔹 Stack (Singly LL)  | `push(data)`, `pop()`, `peek()`, `display()`                                        |
+| 🔹 Queue (Singly LL)  | `enqueue(data)`, `dequeue()`, `peek()`, `display()`                                 |
+| 🔹 Deque (Doubly LL)  | `add_front(data)`, `add_rear(data)`, `remove_front()`, `remove_rear()`, `display()` |
 
-Bidirectional navigation
+---
 
-🔹 Circular Lists
-Circular Singly: Tail points to head
+## 🧠 Learning Outcomes
 
-Circular Doubly: Next & Prev wrap around
+* Understand the internal workings of **Stacks**, **Queues**, and **Deques**
+* Master **pointer manipulation** with custom `Node` classes
+* Gain hands-on experience with **OOP** in Python
+* Build confidence in solving **Data Structure and Algorithm (DSA)** interview problems
 
-🔹 Stack (LIFO)
-push(data)
-
-pop()
-
-peek()
-
-display()
-
-🔹 Queue (FIFO)
-enqueue(data)
-
-dequeue()
-
-peek()
-
-display()
-
-🔹 Deque
-add_front(data)
-
-add_rear(data)
-
-remove_front()
-
-remove_rear()
-
-display()
+---
 
 
-🧠 Learning Outcome
-Understand internal workings of stacks, queues, and deques
+## 🎉 Star This Repo
 
-Master pointer manipulation in linked lists
+If you found this helpful, please consider starring the repository to help others find it too!
 
-Learn OOP and class-based abstraction in Python
+---
 
+**Happy Coding! 🚀**
